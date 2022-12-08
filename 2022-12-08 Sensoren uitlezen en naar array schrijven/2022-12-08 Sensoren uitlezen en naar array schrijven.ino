@@ -32,6 +32,9 @@ Adafruit_MCP23X17 mcp_B5;
 Adafruit_MCP23X17 mcp_B6;
 Adafruit_MCP23X17 mcp_B7;
 
+#define CS1_PIN 5 //chip select 1
+#define CS2_PIN 6 //chip select 2
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
